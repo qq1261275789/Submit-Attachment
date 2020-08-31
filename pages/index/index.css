@@ -1,0 +1,49 @@
+/*
+设置黑体，苹果电脑默认苹果字体
+
+*/
+a{/* 因为所有<a>标签超链接都自带颜色和下划线，所以要去除 */
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.header{/* 头部标签设置 */
+	background-color: #3b3c3e;
+	height: 3.75rem;
+	margin: 0 0 0 -1%;
+	line-height: 3.75rem;
+	width: 102%;/* 为了连贯边框 */
+}
+.logo{
+	height: 1.375rem;
+	margin: 1.1875rem 0 1.1875rem 3.5rem;
+}
+.login{
+	float: right;
+	margin: 0 4rem 0 0;
+	color: white;
+}
+#login{
+	float: left;
+}
+#register{
+	float: left;
+}
+.blank{
+	float: left;
+	margin: 0 0.6rem 0 0.6rem;
+}
+.content{
+	margin: 13.5rem 0 0 0;
+	text-align: center;
+	color: #3B3C3E;
+	line-height: 7rem;
+}
+#welcome-en{
+	font-size: 6rem;
+	font-weight: 600;
+}
+#welcome-ch{
+	margin: -1rem 0 0 0;
+	font-size: 1.75rem;
+	
+}
