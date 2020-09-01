@@ -1,0 +1,65 @@
+body{
+	background-color: #F7F9F8;
+}
+/* header ------------------------------------------------- */
+.header{/* 头部标签设置 */
+	background-color: #3b3c3e;
+	height: 4rem;
+	margin: -0.5rem 0 0 -1%;
+	line-height: 4rem;
+	width: 102%;/* 为了连贯边框 */
+	border: 1px #3b3c3e solid;
+	color: #FFFFFF;
+	box-shadow: 0 0.1875rem 1.25rem grey;
+}
+.header a{
+	color: #FFFFFF;
+	text-decoration:none;
+}
+/* logo */
+.header .logo{/* 在heaer里面的logo位置 */
+	float: left;
+	height: 2rem;
+	width: 8rem;
+	margin: 1rem 0 1rem 3.5rem;
+	background: url(../../assets/image/软工平台.png) no-repeat;
+	background-size: 100%;
+}
+.logo{/*单独 logo */
+	height: 2rem;
+	width: 8rem;
+	background: url(../../assets/image/软工平台.png) no-repeat;
+	background-size: 100%;
+}
+/* login ----------状态一 */
+.header .login{
+	float: right;
+	margin: 0 3.5rem 0 0;
+}
+.login .blank{
+	float: left;
+	margin: 0 0.6rem 0 0.6rem;
+}
+.login .login-in{
+	float: left;
+}
+.login .register{
+	float: left;
+}
+/* logged ----------状态二 */
+.header .logged.{
+	float: right;
+	margin: 0 3.5rem 0 0;
+}
+.logged .user-photo{
+	float: left;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 50%;
+	background-color: #F7F9F8;
+}
+.logged .user-name{
+	
+}
+/* header ------------------------------------------------- */
+
