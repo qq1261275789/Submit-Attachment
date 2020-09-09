@@ -1,0 +1,35 @@
+.content{
+	padding: 3rem 4rem 3rem 4rem;
+}
+.box{
+	background-color: white;
+	border-radius: 0.5rem;
+}
+.left{
+	float: left;
+	width: 12rem;
+	margin: 0 2rem 0 0;
+	padding: 0 1.5rem 0 1.5rem;
+	height: 40rem;
+}
+.button{
+	width: 12rem;
+	height: 2.5rem;
+	border-radius: 0.3rem;
+	text-align: center;
+	line-height: 2.5rem;
+	color: white;
+	font-size: 0.85rem;
+	letter-spacing: 0.1rem;
+	margin: 2rem 0 2rem 0;
+	background-color: #36c384;
+}
+.right{
+	float: right;
+	width: 63.5rem;
+	height: 40rem;
+	background-color: #F7F9F8;	
+}
+.search{
+	
+}
