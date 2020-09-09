@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="login.css" />
+	</head>
+	<body>
+		<div id="loginBox">
+		        <div id="logoImg">
+					<div id="cancel"><a href="javascript:void(0)">×</a></div>
+		            <img src="../../assets/image/软工平台.png" />
+		        </div>
+		        <div id="loginType">
+		            <button @click="passwdLogin()">密码登录</button>
+		            <button>短信登陆</button>
+		            <button>管理员登陆</button>
+		        </div>
+		        <div id="passwdLogin">
+					<div class="inputBox">
+						<div class="inputNum">
+							<input type="text" placeholder="手机号" v-model="userId">
+						</div>
+						<div class="tips" id="tips1">请输入正确的手机号</div>
+					</div>
+		            <div class="inputBox">
+						<div class="inputNum">
+							<input type="text" placeholder="请输入手机验证码">
+						    <button>获取验证码</button>
+						</div>
+						<div class="tips" id="tips2">验证码错误</div>
+					</div>
+		            <div id="loginBtn">
+						<button>登录</button>
+		            </div>
+		        </div>
+				<div></div>
+				<div></div>
+				<div id="bottomBox">
+					<div id="autoLogin"><input type="checkbox" style="color: white;">下次自动登录</div>
+					<div id="forgetOrRegister"><a href="javascript:void(0)">忘记密码</a>&nbsp;|&nbsp;<a href="javascript:void(0)">注册</a></div>
+				</div>
+		    </div>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript" src="login.js"></script>
+	</body>
+</html>
